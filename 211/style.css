@@ -15,4 +15,66 @@ body{
 div {
     display: block;
 }
+.intro {
+    width: 400px;
+    margin: 0 0 0 0;
+    border: 0px dotted #999999;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+header {
+    background: transparent url(header.jpg) no-repeat center top;
+    border: 0px dotted #999999;
+    width: 630px;
+    height: 387px;
+}
+header h1, header h2, .summary p:first-child {
+    display: none;
+}
+ h1 {
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.summary p:first-child {
+    display: none;
+}
+p {
+    color: #999999;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.4em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.summary p:last-child {
+    border: 0px solid #000000;
+    margin: -110px 0 95px 288px;
+    padding: 0 0 0 15px;
+    text-transform: uppercase;
+    width: 290px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #999999;
+    background: transparent url(bullet.jpg) no-repeat 0% 28%;
+}
 
