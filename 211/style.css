@@ -77,4 +77,161 @@ p {
     color: #999999;
     background: transparent url(bullet.jpg) no-repeat 0% 28%;
 }
-
+.preamble, .explanation, .participation, .benefits, .requirements {
+    border-bottom: 0px dotted #999999;
+    position: relative;
+    width: 350px;
+    margin: 0 0 0 60px;
+}
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.preamble h3 {
+    background-image: url(title01.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 64px;
+    margin-bottom: -5px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.supporting {
+    width: 350px;
+    margin: 0 0 0 0;
+}
+.explanation h3 {
+    background-image: url(title02.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.participation h3 {
+    background-image: url(title03.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.benefits h3 {
+    background-image: url(title04.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.requirements h3 {
+    background-image: url(title05.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+footer {
+    text-align: left;
+    padding: 0 0 0 0;
+    margin: 0 0 0 60px;
+}
+footer a, footer a:visited {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    color: #666666;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+a:link {
+    color: #6D2542;
+    text-decoration: none;
+}
+.sidebar {
+    position: absolute;
+    left: 160px;
+    right: auto;
+    top: 400px;
+    padding: 0 0 0 0;
+    margin-left: 270px;
+    width: 180px;
+    border: 0px dotted #666666;
+    background: transparent url(orchid.jpg) no-repeat bottom;
+    height: 810px;
+}
+.design-selection, .design-archives {
+    margin-bottom: 5px;
+    border: 0px solid #000000;
+}
+.design-selection {
+    font-size: 0.9em;
+}
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+    width: 196px;
+    height: 40px;
+    margin-bottom: -20px;
+    padding: 10px 0 0 35px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #999999;
+}
+.design-selection {
+    font-size: 0.9em;
+}
+.sidebar ul {
+    text-align: left;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 15px 35px;
+    font-size: 10px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    border: 0px dotted #666666;
+    width: 120px;
+}
+.design-selection ul li {
+    padding: 3px 0 3px 20px;
+    background: transparent url(bullet.jpg) no-repeat 2% 25%;
+    color: #999999;
+}
+.sidebar ul li {
+    margin: 0;
+    padding: 3px 0 3px 0;
+    border-bottom: 1px dotted #999999;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.sidebar ul {
+    text-align: left;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 15px 35px;
+    font-size: 10px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    border: 0px dotted #666666;
+    width: 120px;
+}
+.design-selection a {
+    display: block;
+    font-size: 1.1em;
+    color: #6D2542;
+}
+.design-selection ul li {
+    padding: 3px 0 3px 20px;
+    background: transparent url(bullet.jpg) no-repeat 2% 25%;
+    color: #999999;
+}
