@@ -1,0 +1,409 @@
+body#css-zen-garden {
+    font: 62.5%/1.6 Georgia, Times, "Times New Roman", serif;
+    color: #3C1700;
+    position: relative;
+    background: #edefd0 url("bg.jpg") top left repeat;
+    margin-top: 75px;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, abbr, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.page-wrapper {
+    width: 645px;
+    padding: 0 30px 0 180px;
+    float: left;
+    background: url("bg_container.gif") 0 50px repeat-y;
+}
+div {
+    display: block;
+}
+body#css-zen-garden {
+    font: 62.5%/1.6 Georgia, Times, "Times New Roman", serif;
+    color: #3C1700;
+    position: relative;
+    background: #edefd0 url("bg.jpg") top left repeat;
+    margin-top: 75px;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+h1 {
+    position: absolute;
+    z-index: 101;
+    top: -75px;
+    left: 0;
+    width: 179px;
+    height: 152px;
+    text-indent: -10001px;
+    background: url("zen-troop-seal.gif") top left no-repeat;
+}
+h2 {
+    margin: 0 0 2.5em -95px;
+    width: 770px;
+    height: 352px;
+    text-indent: -10001px;
+    display: block;
+    background: url("make-em-proud.jpg") top left no-repeat;
+    border-bottom: 4px solid #f7fad9;
+}
+abbr {
+    cursor: help;
+}
+h2 {
+    margin: 0 0 2.5em -95px;
+    width: 770px;
+    height: 352px;
+    text-indent: -10001px;
+    display: block;
+    background: url("make-em-proud.jpg") top left no-repeat;
+    border-bottom: 4px solid #f7fad9;
+}
+.intro .summary {
+    background: #3C1700 url("leader.gif") 54% 15px no-repeat;
+    color: #fff;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    width: 150px;
+    padding: 125px 0 0;
+}
+.intro .summary p:first-child {
+    font-size: 1.2em !important;
+    font-style: italic;
+    padding: 0 11px 0 14px;
+}
+p {
+    font-size: 1.4em;
+    margin: 0 0 1.6em;
+    padding: 0 24px;
+    clear: both;
+}
+abbr {
+    cursor: help;
+}
+.intro .summary p:last-child {
+    background: #2d1100 url("h_get-started.gif") 50% 1.5em no-repeat;
+    padding: 5em 15px 1.6em;
+    margin: 0;
+    font-size: 1.2em !important;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.intro .summary a {
+    color: #fff;
+}
+:link, :visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e0c00;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+.intro .summary p:last-child {
+    background: #2d1100 url("h_get-started.gif") 50% 1.5em no-repeat;
+    padding: 5em 15px 1.6em;
+    margin: 0;
+    font-size: 1.2em !important;
+}
+div {
+    display: block;
+}
+.preamble h3 {
+    background-image: url("h_path-to-achieve.gif");
+}
+h3 {
+    text-align: center;
+    color: #472101;
+    height: 27px;
+    text-indent: -10001px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    margin: 0 0 .8em;
+}
+p {
+    font-size: 1.4em;
+    margin: 0 0 1.6em;
+    padding: 0 24px;
+    clear: both;
+}
+abbr {
+    cursor: help;
+}
+p {
+    font-size: 1.4em;
+    margin: 0 0 1.6em;
+    padding: 0 24px;
+    clear: both;
+}
+.supporting {
+    padding: .5em 0 0;
+    position: relative;
+}
+.explanation h3 {
+    background-image: url("h_what-is-about.gif");
+}
+.participation h3 {
+    background-image: url("h_participation.gif");
+}
+abbr
+{
+    cursor: help;
+}
+div {
+    display: block;
+}
+:link, :visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e0c00;
+}
+p {
+    font-size: 1.4em;
+    margin: 0 0 1.6em;
+    padding: 0 24px;
+    clear: both;
+}
+p {
+    font-size: 1.4em;
+    margin: 0 0 1.6em;
+    padding: 0 24px;
+    clear: both;
+}
+p {
+    font-size: 1.4em;
+    margin: 0 0 1.6em;
+    padding: 0 24px;
+    clear: both;
+}
+.benefits {
+    margin-bottom: 1em;
+}div {
+    display: block;
+}
+.benefits h3 {
+    background-image: url("h_merit-benefits.gif");
+}
+h3 {
+    text-align: center;
+    color: #472101;
+    height: 27px;
+    text-indent: -10001px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    margin: 0 0 .8em;
+}
+.requirements {
+    float: right;
+    width: 1px;
+    margin: 145px -1px 0 0;
+    display: inline;
+}
+.requirements h3 {
+    background-image: url("h_requirements.gif");
+    width: 621px;
+    margin-left: -633px;
+}
+h3 {
+    text-align: center;
+    color: #472101;
+    height: 27px;
+    text-indent: -10001px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    margin: 0 0 .8em;
+}
+:link, :visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e0c00;
+}
+:link, :visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e0c00;
+}
+.requirements p {
+    width: 598px;
+    margin-left: -646px;
+}
+p {
+    font-size: 1.4em;
+    margin: 0 0 1.6em;
+    padding: 0 24px;
+    clear: both;
+}
+footer {
+    float: left;
+    background: url("merit-badges.gif") top left no-repeat;
+    width: 645px;
+    height: 130px;
+    overflow: visible;
+    position: relative;
+    display: inline;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+:link, :visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e0c00;
+}
+footer a {
+    text-indent: -10001px;
+    float: right;
+    display: block;
+    width: 114px;
+    height: 114px;
+    margin: 0 7px;
+}
+.extra1 {
+    width: 855px;
+    height: 100px;
+    display: block;
+    float: left;
+    background: url("bg_req.gif") top left no-repeat;
+}
+.sidebar {
+    width: 130px;
+    background-color: #3c1700;
+    position: absolute;
+    top: 53.5em;
+    left: 10px;
+    padding: 2.4em 10px .8em;
+    color: #cec5bf;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+div {
+    display: block;
+}
+h3 {
+    text-align: center;
+    color: #472101;
+    height: 27px;
+    text-indent: -10001px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    margin: 0 0 .8em;
+}
+.sidebar {
+    width: 130px;
+    background-color: #3c1700;
+    position: absolute;
+    top: 53.5em;
+    left: 10px;
+    padding: 2.4em 10px .8em;
+    color: #cec5bf;
+}
+.design-selection h3 {
+    background-image: url("h_other-scouts.gif");
+}
+.sidebar h3 {
+    display: block;
+    margin: 0 0 1.2em;
+}
+h3 {
+    text-align: center;
+    color: #472101;
+    height: 27px;
+    text-indent: -10001px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    margin: 0 0 .8em;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.sidebar ul {
+    margin: 0 0 2.4em;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.2em;
+}
+ul {
+    list-style: none;
+}
+.design-selection ul li a {
+    background-color: #2d1100;
+    display: block;
+    padding: .5em 5px .6em;
+    font-size: 1.1em;
+    margin-bottom: .3em;
+    color: #fff;
+}
+.sidebar a {
+    color: #ebe7e5;
+}
+.design-archives h3 {
+    background-image: url("h_archives.gif");
+}
+.zen-resources h3 {
+    background-image: url("h_resources.gif");
+}
+a:hover {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+:link, :visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e0c00;
+}
+.requirements p {
+    width: 598px;
+    margin-left: -646px;
+}
+p {
+    font-size: 1.4em;
+    margin: 0 0 1.6em;
+    padding: 0 24px;
+    clear: both;
+}
+a:hover {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+:link, :visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e0c00;
+}
+a:link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
