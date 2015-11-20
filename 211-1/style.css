@@ -1,0 +1,123 @@
+body{
+  margin: 0 0 0 0;/*设置所有外边距的属性(上右下左)*/
+  padding: 0 0 0 0;/*设置所有内边距的属性（） */
+}
+.page-wrapper {
+    width: 630px; /*设置页面宽度为630 */
+    margin: auto; /*设置所有外边距由浏览器计算*/
+    padding: 0 0 100px 0; /*设置内边距 （上＝0）（右＝0）（下＝100）（左＝0）*/
+    background-image: url(rounded.jpg);/* 设置背景图片*/
+    background-repeat: no-repeat; /*不重复背景图像（默认是repeat重复）*/
+    background-position-x: 50%;/* x是水平位置(就是横着移动50％是中心)*/
+    background-position-y: 100%;/*y是垂直位置（就是上下移动50％是中心） */
+    border-top-color: rgb(153, 153, 153);/* 设置上边框的颜色*/
+    border-top-style: dotted;/*设置上边框的样式（dotted）定义点状边框浏览器中呈现为实线 */
+    border-top-width: 0px; /*设置上边框的宽度*/
+}
+.intro{
+    width: 400px; /*宽度为400px*/
+    margin: 0 0 0 0 ;/* 设置外边距为0*/
+    border-top-color: rgb(153, 153, 153);/* 设置上边框的颜色*/
+    border-top-style: dotted;
+    border-top-width: 0px;
+}
+
+header{
+    background: url(header.jpg); /*背景图片 */
+    width: 630px;  /*宽度 */
+    height: 387px; /* 高度 */
+}
+header h1, header h2, .summary p:first-child { /*header下面的h1 和header下面的h2 和summary下面的p下面的(first—child父元素的首个子元素的每个 <p> 元素)去掉文字 */
+    display: none;
+}
+P{
+    color: #999999;/*字体颜色*/
+    font-size: 11px;/*字体大小*/
+    font-weight: normal;/*把字体的粗细（weight）设置成默认值（normal） */
+    line-height: 1.4em;/*属性设置行间的距离*/
+    font-family: Geneva, Arial, Helvetica, sans-serif;/* 设置字体*/
+
+}
+.summary p:last-child /*父元素的最后的子元素的每个 <p> 元素 */{
+    border-top-color: rgb(0, 0, 0);/* */
+    border-top-style: solid;
+    border-top-width: 0px;
+    margin-top: -110px;
+    margin-right: 0px;
+    margin-bottom: 95px;
+    margin-left: 288px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    text-transform: uppercase;/*大写字母 */
+    width: 290px; /*宽度290 */
+    font-family: Geneva, Arial, Helvetica, sans-serif;/*字体类型*/
+    font-size: 10px;
+    font-weight: normal;
+    color: #999999;
+    background: transparent url(bullet.jpg) no-repeat 0% 28%;
+}
+a:link
+{
+color:#6D2542;
+}
+.preamble h3 {
+    background-image: url(title01.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 64px;
+    margin-bottom: -5px;
+}
+.preamble, .explanation, .participation, .benefits, .requirements {
+    border-bottom: 0px dotted #999999;
+    position: relative;
+    width: 350px;
+    margin: 0 0 0 60px;
+}
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.explanation h3 {
+    background-image: url(title02.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.participation h3 {
+    background-image: url(title03.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.benefits h3 {
+    background-image: url(title04.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.requirements h3 {
+    background-image: url(title05.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+footer a, footer a:visited {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    color: #666666;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
