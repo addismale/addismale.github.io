@@ -1,0 +1,24 @@
+body.{ /* body的外边距和内边距*/
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+}
+.page-wrapper{ /*给page—wrapper设定属性 */
+  width:630px; /*宽度 */
+  background-image:url(rounded.jpg); /*背景图片*/
+  background-repeat:no-repeat; /* 背景图片不重复*/
+  background-position:bottom; /*背景放在底部 */
+  margin:auto;  /*外边距是计算机计算*/
+  padding: 0 0 100 0; /*内边距是0 0 100 0 */
+}
+.intro{
+  width:400px;
+  margin:0 0 0 0;
+}
+header{
+  background-image:url(header.jpg);
+  width:630px;
+  height:387px;
+}
+header h1,h2{
+  display: none;
+}
