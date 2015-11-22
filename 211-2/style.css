@@ -22,3 +22,10 @@ header{
 header h1,h2{
   display: none;
 }
+p {
+    color: #999999;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.4em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
