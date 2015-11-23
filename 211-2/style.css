@@ -67,3 +67,69 @@ header h1, header h2, .summary p:first-child {
     white-space: nowrap;/* 白色的空间不换行*/
     overflow: hidden;  /*溢出 隐藏 */
 }
+.supporting {
+    width: 350px;
+    margin: 0 0 0 0;
+}
+.preamble, .explanation, .participation, .benefits, .requirements{
+    width: 350px;
+    margin: 0 0 0 60px;
+}
+.explanation h3 {
+    width: 286px;
+    height: 66px;
+    background-image: url(title02.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    margin-bottom: -5px;
+}
+.participation h3 {
+    width: 286px;
+    height: 66px;
+    background-image: url(title03.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    margin-bottom: -5px;
+}
+.benefits h3 {
+    width: 286px;
+    height: 66px;
+    background-image: url(title04.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-bottom: -5px;
+}
+.requirements h3 {
+    background-image: url(title05.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: left;
+    padding: 0 0 0 0;
+    margin: 0 0 0 60px;
+}
+footer a, footer a:visited {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    color: #666666;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+a:visited {
+    color: #999999;
+    text-decoration: none;
+}
