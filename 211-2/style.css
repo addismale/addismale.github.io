@@ -4,11 +4,14 @@ body.{ /* body的外边距和内边距*/
 }
 .page-wrapper{ /*给page—wrapper设定属性 */
   width:630px; /*宽度 */
+  margin: auto;
   background-image:url(rounded.jpg); /*背景图片*/
   background-repeat:no-repeat; /* 背景图片不重复*/
   background-position:bottom; /*背景放在底部 */
   margin:auto;  /*外边距是计算机计算*/
-  padding: 0 0 100 0; /*内边距是0 0 100 0 */
+  position: relative;
+  padding: 0 0 100px 0;
+
 }
 .intro{
   width:400px;
@@ -109,13 +112,6 @@ header h1, header h2, .summary p:first-child {
     height: 66px;
     margin-bottom: -5px;
 }
-
-
-
-
-
-
-
 footer {
     text-align: left;
     padding: 0 0 0 0;
@@ -132,4 +128,72 @@ footer a, footer a:visited {
 a:visited {
     color: #999999;
     text-decoration: none;
+}
+.sidebar {
+    position: absolute;
+    left: 160px;
+    right: auto;
+    top: 400px;
+    padding: 0 0 0 0;
+    margin-left: 270px;
+    width: 180px;
+    border: 0px dotted #666666;
+    background: transparent url(orchid.jpg) no-repeat bottom;
+    height: 810px;
+}
+.design-selection, .design-archives {
+    margin-bottom: 5px;
+    border: 0px solid #000000;
+}
+.design-selection {
+    font-size: 0.9em;
+}
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+    width: 196px;
+    height: 40px;
+    margin-bottom: -20px;
+    padding: 10px 0 0 35px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #999999;
+}
+.sidebar ul {
+    text-align: left;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 15px 35px;
+    font-size: 10px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    border: 0px dotted #666666;
+    width: 120px;
+}
+.design-selection ul li {
+    padding: 3px 0 3px 20px;
+    background: transparent url(bullet.jpg) no-repeat 2% 25%;
+    color: #999999;
+}
+.design-selection ul li {
+    padding: 3px 0 3px 20px;
+    background: transparent url(bullet.jpg) no-repeat 2% 25%;
+    color: #999999;
+}
+.sidebar ul li {
+    margin: 0;
+    border-bottom: 1px dotted #999999;
+}
+.design-selection a {
+    display: block;
+    font-size: 1.1em;
+    color: #6D2542;
+}
+.design-selection a.designer-name {
+    display: inline;
+    line-height: 5px;
+    margin: 0;
+    padding: 0;
+    font: normal 1.0em/0.9em Geneva, Arial, Tahoma, sans-serif;
+    color: #999999;
+    letter-spacing: -1px;
 }
