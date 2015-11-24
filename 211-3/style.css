@@ -1,40 +1,33 @@
-body. { /* body的外边距和内边距*/
-  margin :0 0 0 0;
-  padding :0 0 0 0;
+body{
+  margin: 0 0 0 0 ;
+  padding: 0 0 0 0;
 }
-.page-wrapper { /*给page—wrapper设定属性 */
-  width :630px; /*宽度 */
-  margin : auto;
-  background-image :url(rounded.jpg); /*背景图片*/
-  background-repeat :no-repeat; /* 背景图片不重复*/
-  background-position :bottom; /*背景放在底部 */
-  margin :auto;  /*外边距是计算机计算*/
-  position : relative;
-  padding : 0 0 100px 0;
-
-}
-.intro {
-  width: 400px;
-  margin: 0 0 0 0;
+.page-wrapper {
+    width: 630px;
+    margin: auto;
+    padding: 0 0 100px 0;
+    background-image: url(rounded.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 0px dotted #999999;
+    position: relative;
 }
 header {
-  background-image :url(header.jpg);
-  width :630px;
-  height :387px;
+  width: 630px;
+  height: 387px;
+  background-image: url(header.jpg);
+  margin: auto;
 }
-header h1,h2 {
-  display :none;
+  header h1, header h2 {
+  display: none;
 }
-
-p {
-    color: #999999;
-    font-size: 11px;
-    font-weight: normal;
-    line-height: 1.4em;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
+.summary p:first-child {
+  display: none;
+}
+.summaru p:first-child{
+  margin: -110px 0 95px 288px;
 }
 .summary p:last-child {
-    border: 0px solid #000000;
     margin: -110px 0 95px 288px;
     padding: 0 0 0 15px;
     text-transform: uppercase;
@@ -45,30 +38,140 @@ p {
     color: #999999;
     background: transparent url(bullet.jpg) no-repeat 0% 28%;
 }
-a:link{
-    color: #6D2542; /*链接颜色*/
-    text-decoration: none; /* 文本装饰默认*/
+p {
+  color: #999999;
+  font-size: 11px;
+  font-family: Geneva, Arial, Helvetica,
 }
+
 .preamble, .explanation, .participation, .benefits, .requirements {
     border-bottom: 0px dotted #999999;
     position: relative;
     width: 350px;
     margin: 0 0 0 60px;
 }
+
 .preamble h3 {
-    width: 286px;
-    height: 64px;
     background-image: url(title01.jpg);
     background-repeat: no-repeat;
     background-position: left top;
-    margin-bottom: -5px;
-}
-header h1, header h2, .summary p:first-child {
-    display: none;
+    width: 286px;
+    height: 64px;
+    margin-bottom: -9px;
 }
 .preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
-    text-indent: 100%; /*文本缩进：100% */
-    white-space: nowrap;/* 白色的空间不换行*/
-    overflow: hidden;  /*溢出 隐藏 */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.explanation h3 {
+    background-image: url(title02.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.participation h3 {
+    background-image: url(title03.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.benefits h3 {
+    background-image: url(title04.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+.requirements h3 {
+    background-image: url(title05.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 286px;
+    height: 66px;
+    margin-bottom: -5px;
+}
+a:link {
+    color: #6D2542;
+    text-decoration: none;
+}
+a:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+a:visited {
+    color: #999999;
+    text-decoration: none;
+}
+footer {
+    text-align: left;
+    padding: 0 0 0 0;
+    margin: 0 0 0 60px;
+}
+footer a, footer a:visited {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    color: #666666;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.sidebar {
+    position: absolute;
+    left: 160px;
+    right: auto;
+    top: 400px;
+    padding: 0 0 0 0;
+    margin-left: 270px;
+    width: 180px;
+    border: 0px dotted #666666;
+    background: transparent url(orchid.jpg) no-repeat bottom;
+    height: 810px;
 }
 
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+    width: 196px;
+    height: 40px;
+    margin-bottom: -20px;
+    padding: 10px 0 0 35px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #999999;
+}
+.sidebar ul {
+    text-align: left;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 15px 35px;
+    font-size: 10px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    border: 0px dotted #666666;
+    width: 120px;
+}
+.design-selection ul li {
+    padding: 3px 0 3px 20px;
+    background: transparent url(bullet.jpg) no-repeat 2% 25%;
+    color: #999999;
+    border-bottom: 1px dotted #999999;
+}
+.design-selection a {
+    display: block;
+    font-size: 1.1em;
+    color: #6D2542;
+}
+.design-archives {
+    margin-bottom: 5px;
+    border: 0px solid #000000;
+}
+.sidebar  li {
+    margin: 0;
+    padding: 3px 0 3px 0;
+    border-bottom: 1px dotted #999999;
+}
