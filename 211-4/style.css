@@ -128,4 +128,41 @@ a:visited {
     color: #999999;
     text-decoration: none;
 }
-
+.sidebar {
+    position: absolute;
+    left: 160px;
+    right: auto;
+    top: 400px;
+    padding: 0 0 0 0;
+    margin-left: 270px;
+    width: 180px;
+    background: transparent url(orchid.jpg) no-repeat bottom;
+    height: 810px;
+}
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+    width: 196px;
+    height: 40px;
+    margin-bottom: -20px;
+    padding: 10px 0 0 35px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.design-selection ul li {
+    padding: 3px 0 3px 20px;
+    background: transparent url(bullet.jpg) no-repeat 2% 25%;
+    color: #999999;
+}
+.sidebar ul li {
+    margin: 0;
+    border-bottom: 1px dotted #999999;
+    font-size: 10px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.design-selection a {
+    display: block;
+    font-size: 0.2px;
+    color: #6D2542;
+}
