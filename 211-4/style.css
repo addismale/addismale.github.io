@@ -1,0 +1,131 @@
+.page-wrapper {
+    width: 630px;
+    margin: auto;
+    padding: 0 0 100px 0;
+    background-image: url(rounded.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 0px dotted #999999;
+    position: relative;
+}
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+header{
+  width: 630px;
+  height: 387px;
+  background-image: url(header.jpg);
+}
+header h1, header h2{
+  display: none;
+}
+
+.summary p:first-child{
+  display: none;
+}
+.summary p:last-child{
+      width: 290px;
+      margin: -110px 0 95px 288px;
+      color: #999999;
+      background: url(bullet.jpg);
+      background-repeat: no-repeat;
+      padding: 0 0 0 15px;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.preamble{
+    width: 350px;
+    margin: 0 0 0 60px;
+}
+
+.preamble h3{
+    width: 286px;
+    height: 64px;
+    background-image: url(title01.jpg);
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+p {
+    color: #999999;
+    font-size: 11px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.explanation{
+    width: 350px;
+    margin: 0 0 0 60px;
+}
+.explanation h3{
+   width: 286px;
+   height: 66px;
+   background-image: url(title02.jpg);
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+
+.participation{
+    width: 350px;
+    margin: 0 0 0 60px;
+}
+.participation h3{
+    width: 286px;
+    height: 66px;
+    background-image: url(title03.jpg);
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.benefits{
+    width: 350px;
+    margin: 0 0 0 60px;
+}
+.benefits h3{
+    width: 286px;
+    height: 66px;
+    background-image: url(title04.jpg);
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.requirements{
+    width: 350px;
+    margin: 0 0 0 60px;
+}
+.requirements h3{
+    width: 286px;
+    height: 66px;
+    background-image: url(title05.jpg);
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+footer{
+    margin: 0 0 0 60px;
+}
+footer a, footer a:visited {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    color: #666666;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+a:link {
+    color: #6D2542;
+    text-decoration: none;
+}
+a:visited {
+    color: #999999;
+    text-decoration: none;
+}
+
