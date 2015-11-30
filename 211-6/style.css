@@ -3,14 +3,15 @@ body{
   padding: 0 0 0 0;
 }
 .page-wrapper{
-  width: 350px;
-  height: 300px;
+  width: 630px;
   margin: auto;
+  padding: 0 0 0 0;
 }
 header{
   width: 600px;
   height: 400px;
   background: red;
+  margin: auto;
 }
 header h1, header h2{
  display: none;
@@ -24,6 +25,8 @@ header h1, header h2{
 }
 .preamble, .explanation, .participation, .benefits, .requirements{
   background: green;
+  width: 350px;
+  margin: 0 0 0 14px;
 }
 
 .sidebar {
@@ -31,5 +34,8 @@ header h1, header h2{
     height: 500px;
     position: relative;
     left: 400px;
-    top: -1985px;
+    top: -2040px;
+}
+footer{
+    margin: 0 0 0 14px;
 }
