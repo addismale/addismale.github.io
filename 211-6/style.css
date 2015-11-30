@@ -38,5 +38,16 @@ p {
   font-size: 11px;
   color: #999999;
   font-family: Geneva, Arial, Helvetica, sans-serif;
-
+}
+.preamble {
+  width: 350px;
+  margin: 0 0 0 60px;
+}
+.preamble h3 {
+  width: 286px;
+  height: 64px;
+  background-repeat: no-repeat;
+  background-image: url(title01.jpg);
+  margin: 0 0 -5px 0;
+  text-indent: 100%;
 }
