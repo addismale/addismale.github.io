@@ -31,10 +31,13 @@ header h1, header h2{
 
 .sidebar {
     width: 200px;
-    height: 500px;
+    height: 600px;
     position: relative;
-    left: 400px;
-    top: -2040px;
+    left: 420px;
+    top: -3800px;
+    right:auto;
+    bottom:auto;
+    background: yellow;
 }
 footer{
     margin: 0 0 0 14px;
