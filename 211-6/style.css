@@ -30,15 +30,23 @@ header h1, header h2{
 }
 
 .sidebar {
-    width: 200px;
-    height: 600px;
-    position: relative;
-    left: 420px;
-    top: -3800px;
-    right:auto;
-    bottom:auto;
-    background: yellow;
+  width: 200px;
+  background: yellow;
+  float: left;
+  margin-left: 40px;
 }
 footer{
     margin: 0 0 0 14px;
+}
+
+#zen-supporting {
+  position: absolute;
+  width: 350px;
+}
+
+.explanation {
+  float: left;
+}
+.preamble {
+  float: left;
 }
