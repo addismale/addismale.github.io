@@ -1,6 +1,4 @@
 body{
-  width: 600px;
-  height: 400px;
   background-image: url(bg.gif);
   margin: 0 0 0 0;
   padding:0 0 0 0;
@@ -16,4 +14,78 @@ h1,h2{
 }
 p:first-child {
   display: none;
+}
+.summary {
+    position: absolute;
+    top: 480px;
+    left: 670px;
+    width: 190px;
+    background-image:url(h3_thegoods.jpg);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #FFFFFF;
+}
+.summary p:last-child {
+    font-family: arial, verdana, helvetica, sans-serif;
+    color: #FFFFFF;
+    padding: 7px 12px 7px 12px;
+    margin: 38px 0px 0px 0px;
+    background: #6B320E;
+    border-top: 1px solid #FFFFFF;
+}
+.preamble h3 {
+    background: url(h3_theroad.gif) ;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 37px;
+}
+h3 {
+    text-indent: 100%; /* 文本缩进100%*/
+    white-space: nowrap;/*白色的空间不换行 */
+    overflow: hidden;  /*溢出隐藏 */
+}
+.preamble{
+  width: 350px;
+  margin: 0 0 0 325px;
+}
+p{
+    font-family: arial, verdana, helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 17px;
+    color: #000000;
+}
+.explanation h3 {
+    background: url(h3_sowhat.gif);
+    background-repeat: no-repeat;
+    height: 37px;
+}
+.explanation {
+    width: 350px;
+    margin: 0 0 0 325px;
+}
+.participation h3 {
+    background-image: url(h3_participation.gif) ;
+    background-repeat: no-repeat;
+    height: 37px;
+}
+.participation {
+    width: 350px;
+    margin: 0 0 0 325px;
+}
+.benefits h3 {
+    background-image: url(h3_benefits.gif) ;
+    background-repeat: no-repeat;
+    height: 37px;
+}
+.benefits{
+    width: 350px;
+    margin: 0 0 0 325px;
+}
+.requirements h3 {
+    background-image: url(h3_requirements.gif);
+    background-repeat: no-repeat;
+    height: 37px;
+}
+.requirements{
+    width: 350px;
+    margin: 0 0 0 325px;
 }
