@@ -1,0 +1,19 @@
+body{
+  width: 600px;
+  height: 400px;
+  background-image: url(bg.gif);
+  margin: 0 0 0 0;
+  padding:0 0 0 0;
+}
+header{
+  background-image: url(main.jpg);
+  height: 470px;
+  width: 600px;
+  margin: -20px 0 0 300px;
+}
+h1,h2{
+  display: none;
+}
+p:first-child {
+  display: none;
+}
